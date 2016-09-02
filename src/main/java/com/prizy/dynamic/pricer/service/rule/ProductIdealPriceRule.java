@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 
-import com.prizy.dynamic.pricer.PrizyConstants;
+import com.prizy.dynamic.pricer.constants.PrizyConstants;
 
 public interface ProductIdealPriceRule {
     

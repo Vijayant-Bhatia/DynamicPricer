@@ -1,8 +1,8 @@
 package com.prizy.dynamic.pricer.service.rule;
 
-import static com.prizy.dynamic.pricer.PrizyConstants.AVERAGE;
-import static com.prizy.dynamic.pricer.PrizyConstants.HIGHEST;
-import static com.prizy.dynamic.pricer.PrizyConstants.LOWEST;
+import static com.prizy.dynamic.pricer.constants.PrizyConstants.AVERAGE;
+import static com.prizy.dynamic.pricer.constants.PrizyConstants.HIGHEST;
+import static com.prizy.dynamic.pricer.constants.PrizyConstants.LOWEST;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -12,8 +12,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.prizy.dynamic.pricer.PrizyConstants;
+import org.springframework.stereotype.Component;
 
+import com.prizy.dynamic.pricer.constants.PrizyConstants;
+
+@Component
 public class ProductIdealPriceRuleImpl implements ProductIdealPriceRule {
 
     @Override

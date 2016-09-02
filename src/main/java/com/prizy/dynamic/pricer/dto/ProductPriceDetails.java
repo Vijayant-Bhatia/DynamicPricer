@@ -17,6 +17,8 @@ public class ProductPriceDetails {
     private BigDecimal averagePrice;
     private BigDecimal lowestPrice;
     private BigDecimal highestPrice;
+    private Boolean response;
+    private String message;
     public Product getProduct() {
         return product;
     }
@@ -46,6 +48,18 @@ public class ProductPriceDetails {
     }
     public void setHighestPrice(BigDecimal highestPrice) {
         this.highestPrice = highestPrice;
+    }
+    public Boolean getResponse() {
+        return response;
+    }
+    public void setResponse(Boolean response) {
+        this.response = response;
+    }
+    public String getMessage() {
+        return message;
+    }
+    public void setMessage(String message) {
+        this.message = message;
     }
     
     
