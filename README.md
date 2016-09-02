@@ -8,10 +8,10 @@ Below are the steps in order to run the project:
 4.  Run the Application.java as Java application
 5.  On any Rest client run below url with specified method types
 
-In order to run the rules dynamically on different servers
-1.	Add the argument --spring.config.location=file:{some-location-of your-property-file}/application.properties
-2.	In application.properties file specify the rule.directory in which you are putting the ProductIdealPriceRule.js, which contains the formula for calculating the ideal price.
-3. And then run the Application.java application.  
+In order to run the rules dynamically on different servers: <br/>
+1.	Add the argument --spring.config.location=file:{some-location-of your-property-file}/application.properties <br/>
+2.	In application.properties file specify the rule.directory in which you are putting the ProductIdealPriceRule.js, which contains the formula for calculating the ideal price. <br/>
+3. And then run the Application.java application. <br/>
 
 -------------------------------------------------------------------------------------------------------------
 Functionality: For Fetching all the ProductsPrices. <br/>
