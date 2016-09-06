@@ -4,9 +4,10 @@ Below are the steps in order to run the project:
 
 1.  Download the zip file of the project and extract it.
 2.  Import the project as existing maven project.
-3.  Run jUnit test cases in order to test the application.
-4.  Run the Application.java as Java application
-5.  On any Rest client run below url with specified method types
+3.  Java version 8 is used in the project, so use that only as i have used some features of java 8.
+4.  Run jUnit test cases in order to test the application.
+5.  Run the Application.java as Java application
+6.  On any Rest client run below url with specified method types
 
 In order to run the rules dynamically on different servers: <br/>
 1.  Add the argument --spring.config.location=file:{some-location-of your-property-file}/application.properties <br/>
